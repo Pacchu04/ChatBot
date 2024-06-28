@@ -43,6 +43,10 @@ Candidate Guidance: The chatbot can effectively answer common candidate queries 
 ### Model Accuracy:
 ![image](https://github.com/Pacchu04/ChatBot/assets/92878457/5801b278-3469-4777-86fe-1041362792bb)
 
+### Result:
+![image](https://github.com/Pacchu04/ChatBot/assets/92878457/41017b7c-1eb6-49df-b103-b99bf795d783)
+
+![image](https://github.com/Pacchu04/ChatBot/assets/92878457/5b54620d-887b-4e9d-b485-fbda784a35ec)
 
 ## Initial Setup:
 
