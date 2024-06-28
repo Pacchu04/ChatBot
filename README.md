@@ -39,6 +39,11 @@ After performing NLTK operations on text data, neural network model is likely to
 Chatbot Interaction: When a user inputs a query, the chatbot tokenizes and stems the input sentence, converts it into a BoW vector, and uses this vector to determine the most appropriate response based on pre-trained machine learning models or predefined rules.
 Candidate Guidance: The chatbot can effectively answer common candidate queries about the job application process by matching the input query to the most relevant responses in its knowledge base.
 
+## Result and Performance
+### Model Accuracy:
+![image](https://github.com/Pacchu04/ChatBot/assets/92878457/5801b278-3469-4777-86fe-1041362792bb)
+
+
 ## Initial Setup:
 
 Clone repo and create a virtual environment
