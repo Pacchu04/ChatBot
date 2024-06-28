@@ -52,7 +52,7 @@ Candidate Guidance: The chatbot can effectively answer common candidate queries 
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ git clone https://github.com/Pacchu04/ChatBot.git
 $ cd ChatBot
 $ python -m venv venv
 $ venv\Scripts\activate
