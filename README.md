@@ -46,7 +46,7 @@ Candidate Guidance: The chatbot can effectively answer common candidate queries 
 ### Result:
 ![image](https://github.com/Pacchu04/ChatBot/assets/92878457/41017b7c-1eb6-49df-b103-b99bf795d783)
 
-![image](https://github.com/Pacchu04/ChatBot/assets/92878457/5b54620d-887b-4e9d-b485-fbda784a35ec)
+![image](https://github.com/Pacchu04/ChatBot/assets/92878457/7d812d5a-2bd4-46d8-b01e-2ce123ad2133)
 
 ## Initial Setup:
 
