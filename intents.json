@@ -1,0 +1,252 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "mobile_job_application",
+      "patterns": [
+        "Can I apply for jobs using a mobile device?",
+        "Can I use my phone to apply for jobs?",
+        "Is it possible to apply for jobs on a mobile device?",
+        "Can I submit job applications from my smartphone?",
+        "Can I search for jobs using a tablet?",
+        "Do job portals support mobile applications?",
+        "Are there mobile-optimized websites for job applications?",
+        "Can I apply for jobs from my mobile phone?",
+        "Do companies accept job applications from mobile devices?",
+        "Can I find and apply for jobs on my smartphone?"
+      ],
+      "responses": [
+        "Yes, many job portals have mobile applications or mobile-optimized websites, allowing you to search for and apply to jobs directly from your smartphone or tablet."
+      ]
+    },    
+    {
+      "tag": "job_application_process",
+      "patterns": [
+        "How do I apply for the job?",
+        "What are the steps to apply for a job?",
+        "How can I submit my application?",
+        "Where can I find the job application?",
+        "Can you guide me through the job application process?",
+        "How do I start the job application?",
+        "Where do I apply for this position?",
+        "What is the application process for this job?",
+        "Can I get instructions on how to apply for the job?",
+        "How do I proceed with the job application?"
+      ],
+      "responses": [
+        "You can apply for the job by visiting our careers page [insert link] and selecting the position you're interested in. Click on the 'Apply' button and follow the instructions to submit your application."
+      ]
+    },
+    {
+      "tag": "required_documents",
+      "patterns": [
+        "What documents do I need to submit with my application?",
+        "What should I include in my job application?",
+        "Which documents are required for the application?",
+        "Do I need to submit a resume and cover letter?",
+        "Are there any specific documents needed for the job application?",
+        "What should I attach to my application?",
+        "What paperwork is needed for the job application?",
+        "What documents are necessary to apply for the job?",
+        "Do I need to provide additional documents with my application?",
+        "What are the required materials for the job application?"
+      ],
+      "responses": [
+        "Typically, you will need to submit a resume and a cover letter. Some positions may also require additional documents such as a portfolio, work samples, or letters of recommendation. Check the job listing for specific requirements."
+      ]
+    },
+    {
+      "tag": "resume_content",
+      "patterns": [
+        "What should I include in my resume?",
+        "What information needs to be on my resume?",
+        "How do I structure my resume?",
+        "What are the key components of a resume?",
+        "What details are essential for a resume?",
+        "What do employers look for in a resume?",
+        "What should a resume contain?",
+        "How do I format my resume for a job application?"
+      ],
+      "responses": [
+        "Your resume should include your contact information, a summary or objective statement, your work experience, education, skills, and any relevant certifications or achievements. Tailor your resume to highlight your most relevant experiences and skills for the job you're applying for."
+      ]
+    }, 
+    {
+      "tag": "cover_letter_writing",
+      "patterns": [
+        "How do I write a cover letter?",
+        "What should I include in a cover letter?",
+        "How do I structure a cover letter?",
+        "What are the key components of a cover letter?",
+        "How do I start a cover letter?",
+        "How do I end a cover letter?",
+        "How do I format a cover letter?",
+        "Can you give me a cover letter template?",
+        "What should a cover letter contain?"
+      ],
+      "responses": [
+        "A cover letter should include:\n1. A greeting addressed to the hiring manager.\n2. An introduction stating the position you're applying for and how you found out about it.\n3. A brief summary of your qualifications and why you're a good fit for the position.\n4. A conclusion that thanks the hiring manager for their time and expresses your enthusiasm for the role.\n5. A professional closing with your name and contact information."
+      ]
+    }, 
+    {
+      "tag": "application_deadline",
+      "patterns": [
+        "What is the application deadline?",
+        "When is the deadline to apply for the job?",
+        "Is there an application deadline?",
+        "What is the last date to submit my application?",
+        "What is the due date for applications?"
+      ],
+      "responses": [
+        "The application deadline is typically listed in the job posting. If it's not specified, it's best to apply as soon as possible. If you need clarification, you can contact the HR department."
+      ]
+    },   
+    {
+      "tag": "interview_preparation",
+      "patterns": [
+        "How can I prepare for the interview?",
+        "What are the steps to prepare for an interview?",
+        "What should I do before an interview?",
+        "How should I prepare for a job interview?",
+        "Can you give me tips for interview preparation?",
+        "What should I focus on before an interview?"
+      ],
+      "responses": [
+        "To prepare for the interview:\n1. Research the company and understand its values, products, and services.\n2. Review the job description and think about how your skills and experiences align with the role.\n3. Practice answering common interview questions and prepare questions to ask the interviewer.\n4. Dress appropriately and ensure you have a quiet, professional setting if the interview is virtual."
+      ]
+    }, 
+    {
+      "tag": "hiring_process",
+      "patterns": [
+        "What is the hiring process?",
+        "Can you explain the hiring process?",
+        "What are the steps in your hiring process?",
+        "How does the hiring process work?",
+        "What is your recruitment process like?",
+        "What steps are involved in your hiring process?",
+        "Can you describe how you hire new employees?"
+      ],
+      "responses": [
+        "Our typical hiring process includes the following steps:\n- Application submission\n- Initial screening by HR\n- First-round interview (phone or video)\n- Second-round interview (in-person or video)\n- Final interview with senior management\n- Reference checks and background verification\n- Job offer"
+      ]
+    },  
+    {
+      "tag": "apply_for_multiple_positions",
+      "patterns": [
+        "Can I apply for multiple positions?",
+        "Is it okay to apply for more than one position?",
+        "Can I send applications for different positions?",
+        "Can I apply to more than one job at your company?",
+        "Should I apply for multiple roles?",
+        "Can I apply for different positions within your organization?",
+        "Is it acceptable to apply for several positions?",
+        "Can I submit applications for multiple job openings?"
+      ],
+      "responses": [
+        "Yes, you can apply for multiple positions. Ensure that your resume and cover letter are tailored to each specific role to highlight your relevant skills and experiences."
+      ]
+    }, 
+    {
+      "tag": "application_status",
+      "patterns": [
+        "What is the status of my application?",
+        "Can I check the status of my job application?",
+        "How do I find out the status of my application?",
+        "Can I get an update on my application?",
+        "How can I check the progress of my job application?",
+        "Where can I see the status of my application?",
+        "How do I know if my application is being considered?",
+        "Is there a way to check if my application has been reviewed?",
+        "Can you tell me the status of my job application?"
+      ],
+      "responses": [
+        "You can check the status of your application by logging into your candidate profile on our careers page. We will also keep you updated via email throughout the hiring process."
+      ]
+    },    
+    {
+      "tag": "company_values_culture",
+      "patterns": [
+        "What are the company's values and culture?",
+        "Can you describe your company's values?",
+        "What values does your company prioritize?",
+        "What is the culture like at your company?",
+        "How would you describe your workplace culture?",
+        "Can you tell me about the culture of your company?",
+        "What are your company's guiding principles?",
+        "Can you explain the values and culture of your company?"
+      ],
+      "responses": [
+        "Our company values has a supportive, inclusive culture that emphasizes employee development, innovation, and customer-centricity. the supportive culture and focus on employee well-being help mitigate stress. We believe in supporting our employees' growth and creating a positive, inclusive work environment."
+      ]
+    },                           
+    {
+      "tag": "professional_online_profiles",
+      "patterns": [
+        "How important is it to keep my online profiles professional?",
+        "Should I maintain a professional online presence?",
+        "Do employers check online profiles?",
+        "Is it necessary to have a professional LinkedIn profile?",
+        "How crucial is it to have a professional online image?",
+        "Do companies review candidates' online profiles?",
+        "Do employers look at social media profiles?"
+      ],
+      "responses": [
+        "It's crucial to maintain professional online profiles, especially on platforms like LinkedIn. Employers often review candidates' online presence, so ensure your profiles align with your career goals."
+      ]
+    },    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
