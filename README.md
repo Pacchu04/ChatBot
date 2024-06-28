@@ -49,3 +49,31 @@ $ python -m venv venv
 $ venv\Scripts\activate
 ```
 
+Install dependencies
+```
+$ (venv) pip install Flask torch torchvision nltk
+```
+Install nltk package
+```
+$ (venv) python
+>>> import nltk
+>>> nltk.download('punkt')
+```
+Modify `intents.json` with different intents and responses for your Chatbot. It contains a conversation data between the bot and the candidate. Modify the files based on your company’s process.
+
+After each time modification of `intents.json' file Run the below commond mandatory.
+
+Run
+```
+$ (venv) python train.py
+```
+This will dump data.pth file. And then run
+
+The following command to test the chatbot in console.
+```
+$ (venv) python chat.py
+```
+To run the Bot in application 
+```
+$ (venv) python app.py
+```
